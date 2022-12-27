@@ -31,7 +31,7 @@
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^7.3|^8.1",
         "ahsankhatri/firestore-php": "master",
         "aloha/twilio": "^5.0",
         "ambrosethebuild/envato-purchase-code-verifier": "dev-master",
@@ -83,7 +83,6 @@
         "spatie/laravel-model-status": "^1.10",
         "spatie/laravel-permission": "^3.3",
         "srmklive/paypal": "~3.0",
-        "stripe/stripe-php": "^7.74",
         "willvincent/laravel-rateable": "^2.3"
     },
     "require-dev": {
