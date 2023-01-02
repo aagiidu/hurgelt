@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://hurgelt.pro'),
 
     'asset_url' => env('ASSET_URL', null),
 
@@ -119,7 +119,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY'),
+    'key' => env('APP_KEY', 'base64:B88dOcr+TqPZ6bxybFswN3pZ4dEuQ7zjZIzJabsyxCQ='),
 
     'cipher' => 'AES-256-CBC',
 
