@@ -46,7 +46,7 @@
 
                             @if (!App::environment('production'))
                             <hr class="my-5" />
-                            <div class="p-2 mb-5 bg-red-100 border rounded shadow cursor-pointer hover:shadow-lg" wire:click="loadAccount(0)">
+                            {{--<div class="p-2 mb-5 bg-red-100 border rounded shadow cursor-pointer hover:shadow-lg" wire:click="loadAccount(0)">
                                 <p class="font-medium ">Admin Account</p>
                                 <p class="text-sm ">Email: admin@demo.com | Password: password</p>
                             </div>
@@ -68,10 +68,10 @@
                                 <p class="text-sm ">Email: manager3@demo.com | Password: password</p>
                             </div>
 
-                            <div class="p-2 mb-5 bg-green-100 border rounded shadow cursor-pointer hover:shadow-lg" {{-- wire:click="loadAccount(3)" --}}>
+                            <div class="p-2 mb-5 bg-green-100 border rounded shadow cursor-pointer hover:shadow-lg" {-- wire:click="loadAccount(3)" --}>
                                 <p class="font-medium ">Client Account (You can not login to backend)</p>
                                 <p class="text-sm ">Email: client@demo.com | Password: password</p>
-                            </div>
+                            </div>--}}
 
 
 
